@@ -1,0 +1,15 @@
+{
+    "name": "XML Example",
+    "description": "readme.md",
+    "files": [
+        {
+            "fileName": "test.robot"
+        },
+        {
+            "fileName": "keywords.resource"
+        },
+        {
+            "fileName": "stuff.xml"
+        }
+    ]
+}
