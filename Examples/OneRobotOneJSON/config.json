@@ -1,0 +1,12 @@
+{
+    "name": "OneRobotOneJSON",
+    "description": "readme.md",
+    "files": [
+        {
+            "fileName": "test.robot"
+        },
+        {
+            "fileName": "Content.json"
+        }
+    ]
+}

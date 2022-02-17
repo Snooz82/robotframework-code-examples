@@ -1,0 +1,473 @@
+{
+  "uniqueID": "itb-TC-19622-PC-119737",
+  "spec": {
+    "testCaseSpecificationKey": "409168",
+    "comments": "<html><body/></html>",
+    "udfs": [
+      {
+        "udfKey": null,
+        "name": "Testumgebung",
+        "value": "HIL 1",
+        "type": "ENUMERATION",
+        "isMandatory": false
+      },
+      {
+        "udfKey": null,
+        "name": "text",
+        "value": "",
+        "type": "STRING",
+        "isMandatory": false
+      },
+      {
+        "udfKey": null,
+        "name": "Neue Feld",
+        "value": "",
+        "type": "ENUMERATION",
+        "isMandatory": false
+      }
+    ],
+    "keywords": [
+      {
+        "key": null,
+        "name": "Demo"
+      },
+      {
+        "key": null,
+        "name": "Systemtest"
+      }
+    ],
+    "requirements": []
+  },
+  "exec": {
+    "testCaseExecutionKey": "409176",
+    "status": "PERFORMED",
+    "execStatus": "NOTBLOCKED",
+    "verdict": "PASS",
+    "comments": "<html><body><p></p></body></html>",
+    "defects": [],
+    "udfs": [
+      {
+        "udfKey": null,
+        "name": "Getestet in Build",
+        "value": "",
+        "type": "STRING",
+        "isMandatory": false
+      },
+      {
+        "udfKey": null,
+        "name": "text",
+        "value": "",
+        "type": "STRING",
+        "isMandatory": false
+      },
+      {
+        "udfKey": null,
+        "name": "SUD Nr.",
+        "value": "",
+        "type": "STRING",
+        "isMandatory": false
+      }
+    ],
+    "keywords": [],
+    "references": []
+  },
+  "interactions": [
+    {
+      "key": "2305843010000319114",
+      "uniqueID": "iTB-IA-3631",
+      "name": "CarConfig starten",
+      "path": "Fachliche Bausteine CarConfig",
+      "interactionType": "COMPOUND",
+      "spec": {
+        "callID": "8694747",
+        "sequencePhase": "TestStep",
+        "callType": "FLOW",
+        "description": "<html><body>\n  \n\n  \n  \n    <p>\nStarten sie den CarConfigurator.      \n<br/>\n\n    </p>\n\n    <p>\nX:\\TestBench_Demo\\CarConfigurator\\run_car_de_ohne_login.bat\n\n    </p>\n\n\n</body></html>",
+        "comments": "<html><body/></html>",
+        "references": []
+      },
+      "exec": {
+        "verdict": "UNDEFINED",
+        "time": 0,
+        "comments": "",
+        "references": []
+      },
+      "parameters": [],
+      "interactions": [
+        {
+          "key": "2305843010000319098",
+          "uniqueID": "itba-IA-d69a9216ce",
+          "name": "Open CarConfig",
+          "path": "RF-Resource.functional_keywords",
+          "interactionType": "ATOMIC",
+          "spec": {
+            "callID": "8692231",
+            "sequencePhase": "TestStep",
+            "callType": "FLOW",
+            "description": "<html><body>\n  \n\n  \n  \n    <p>\n\u00a0\n\n    </p>\n\n\n</body></html>",
+            "comments": "<html><body/></html>",
+            "references": []
+          },
+          "exec": {
+            "verdict": "UNDEFINED",
+            "time": 0,
+            "comments": "",
+            "references": []
+          },
+          "parameters": []
+        },
+        {
+          "key": "2305843010000319107",
+          "uniqueID": "itba-IA-5552e8fd54",
+          "name": "Set Username",
+          "path": "RF-Resource.functional_keywords",
+          "interactionType": "ATOMIC",
+          "spec": {
+            "callID": "8692233",
+            "sequencePhase": "TestStep",
+            "callType": "FLOW",
+            "description": "<html><body><p/></body></html>",
+            "comments": "<html><body/></html>",
+            "references": []
+          },
+          "exec": {
+            "verdict": "UNDEFINED",
+            "time": 0,
+            "comments": "",
+            "references": []
+          },
+          "parameters": [
+            {
+              "name": "user",
+              "name_from_te": "user",
+              "value": "schulung20",
+              "type": "1",
+              "dataTypeName": "",
+              "dataTypePath": "",
+              "dataTypeUniqueID": ""
+            }
+          ]
+        },
+        {
+          "key": "2305843010000319106",
+          "uniqueID": "itba-IA-0cb54fd4b0",
+          "name": "Set Password",
+          "path": "RF-Resource.functional_keywords",
+          "interactionType": "ATOMIC",
+          "spec": {
+            "callID": "8692236",
+            "sequencePhase": "TestStep",
+            "callType": "FLOW",
+            "description": "<html><body><p/></body></html>",
+            "comments": "<html><body/></html>",
+            "references": []
+          },
+          "exec": {
+            "verdict": "UNDEFINED",
+            "time": 0,
+            "comments": "",
+            "references": []
+          },
+          "parameters": [
+            {
+              "name": "password",
+              "name_from_te": "password",
+              "value": "@RBTFRMWRK@",
+              "type": "1",
+              "dataTypeName": "",
+              "dataTypePath": "",
+              "dataTypeUniqueID": ""
+            }
+          ]
+        },
+        {
+          "key": "2305843010000319091",
+          "uniqueID": "itba-IA-d396966018",
+          "name": "Click Login Btn",
+          "path": "RF-Resource.functional_keywords",
+          "interactionType": "ATOMIC",
+          "spec": {
+            "callID": "8692239",
+            "sequencePhase": "TestStep",
+            "callType": "FLOW",
+            "description": "<html><body><p/></body></html>",
+            "comments": "<html><body/></html>",
+            "references": []
+          },
+          "exec": {
+            "verdict": "UNDEFINED",
+            "time": 0,
+            "comments": "",
+            "references": []
+          },
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "key": "2305843010000319119",
+      "uniqueID": "iTB-IA-3630",
+      "name": "Fahrzeug w\u00e4hlen",
+      "path": "Fachliche Bausteine CarConfig",
+      "interactionType": "COMPOUND",
+      "spec": {
+        "callID": "8694749",
+        "sequencePhase": "TestStep",
+        "callType": "FLOW",
+        "description": "<html><body>\n  \n\n  \n  \n    <p>\nW\u00e4hlen Sie das bezeichnete Fahrzeug.\n\n    </p>\n\n    <p>\n      \n<img src=\"itb/image/8689365.png\"/>\n\n    </p>\n\n\n</body></html>",
+        "comments": "<html><body/></html>",
+        "references": []
+      },
+      "exec": {
+        "verdict": "UNDEFINED",
+        "time": 0,
+        "comments": "",
+        "references": []
+      },
+      "parameters": [],
+      "interactions": [
+        {
+          "key": "2305843010000319092",
+          "uniqueID": "itba-IA-2fb1fcd0d5",
+          "name": "Click New_Car",
+          "path": "RF-Resource.functional_keywords",
+          "interactionType": "ATOMIC",
+          "spec": {
+            "callID": "8692260",
+            "sequencePhase": "TestStep",
+            "callType": "FLOW",
+            "description": "<html><body><p/></body></html>",
+            "comments": "<html><body/></html>",
+            "references": []
+          },
+          "exec": {
+            "verdict": "UNDEFINED",
+            "time": 0,
+            "comments": "",
+            "references": []
+          },
+          "parameters": []
+        },
+        {
+          "key": "2305843010000319103",
+          "uniqueID": "itba-IA-65a66885b3",
+          "name": "Select Base Model",
+          "path": "RF-Resource.functional_keywords",
+          "interactionType": "ATOMIC",
+          "spec": {
+            "callID": "8692262",
+            "sequencePhase": "TestStep",
+            "callType": "FLOW",
+            "description": "<html><body><p/></body></html>",
+            "comments": "<html><body/></html>",
+            "references": []
+          },
+          "exec": {
+            "verdict": "UNDEFINED",
+            "time": 0,
+            "comments": "",
+            "references": []
+          },
+          "parameters": [
+            {
+              "name": "basemodel",
+              "name_from_te": "basemodel",
+              "value": "Minigolf (value)",
+              "type": "1",
+              "dataTypeName": "",
+              "dataTypePath": "",
+              "dataTypeUniqueID": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "2305843010000319125",
+      "uniqueID": "iTB-IA-3633",
+      "name": "Zubeh\u00f6r w\u00e4hlen",
+      "path": "Fachliche Bausteine CarConfig",
+      "interactionType": "COMPOUND",
+      "spec": {
+        "callID": "8694752",
+        "sequencePhase": "TestStep",
+        "callType": "FLOW",
+        "description": "<html><body>\n  \n\n  \n    <p>\nSelektieren sie das entsprechende Zubeh\u00f6rteil mittels der Checkbox.\n    </p>\n\n    <p>\n\u00a0       \n<img src=\"itb/image/8689367.png\"/>\n\n    </p>\n\n  \n\n</body></html>",
+        "comments": "<html><body/></html>",
+        "references": []
+      },
+      "exec": {
+        "verdict": "UNDEFINED",
+        "time": 0,
+        "comments": "",
+        "references": []
+      },
+      "parameters": [],
+      "interactions": [
+        {
+          "key": "2305843010000319102",
+          "uniqueID": "itba-IA-28b3abec39",
+          "name": "Select Accessory",
+          "path": "RF-Resource.functional_keywords",
+          "interactionType": "ATOMIC",
+          "spec": {
+            "callID": "8692291",
+            "sequencePhase": "TestStep",
+            "callType": "FLOW",
+            "description": "<html><body><p/></body></html>",
+            "comments": "<html><body/></html>",
+            "references": []
+          },
+          "exec": {
+            "verdict": "UNDEFINED",
+            "time": 0,
+            "comments": "",
+            "references": []
+          },
+          "parameters": [
+            {
+              "name": "Zubeh\u00f6r(Liste).Zubeh\u00f6rname",
+              "name_from_te": "accessory",
+              "value": "Zentralverriegelung",
+              "type": "2",
+              "dataTypeName": "",
+              "dataTypePath": "",
+              "dataTypeUniqueID": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "2305843010000319116",
+      "uniqueID": "iTB-IA-3636",
+      "name": "Endpreis pr\u00fcfen",
+      "path": "Fachliche Bausteine CarConfig",
+      "interactionType": "COMPOUND",
+      "spec": {
+        "callID": "8694755",
+        "sequencePhase": "TestStep",
+        "callType": "FLOW",
+        "description": "<html><body>\n  \n\n  \n    <p>\nPr\u00fcfen Sie ob der angezeigte Endpreis (gelb markiert) mit dem vorgegebenen Wert \u00fcbereinstimmt.      \n<br/>      \n<img src=\"itb/image/8689363.png\"/>\n\n    </p>\n\n  \n\n</body></html>",
+        "comments": "<html><body/></html>",
+        "references": []
+      },
+      "exec": {
+        "verdict": "UNDEFINED",
+        "time": 0,
+        "comments": "",
+        "references": []
+      },
+      "parameters": [],
+      "interactions": [
+        {
+          "key": "2305843010000319112",
+          "uniqueID": "itba-IA-fd081ec1f2",
+          "name": "Verify Total Price",
+          "path": "RF-Resource.functional_keywords",
+          "interactionType": "ATOMIC",
+          "spec": {
+            "callID": "8692244",
+            "sequencePhase": "TestStep",
+            "callType": "FLOW",
+            "description": "<html><body><p/></body></html>",
+            "comments": "<html><body/></html>",
+            "references": []
+          },
+          "exec": {
+            "verdict": "UNDEFINED",
+            "time": 0,
+            "comments": "",
+            "references": []
+          },
+          "parameters": [
+            {
+              "name": "Endpreis",
+              "name_from_te": "expected_price",
+              "value": "16,200.00",
+              "type": "2",
+              "dataTypeName": "",
+              "dataTypePath": "",
+              "dataTypeUniqueID": ""
+            },
+            {
+              "name": "unit",
+              "name_from_te": "unit",
+              "value": "\u20ac",
+              "type": "1",
+              "dataTypeName": "",
+              "dataTypePath": "",
+              "dataTypeUniqueID": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "2305843010000319113",
+      "uniqueID": "iTB-IA-3635",
+      "name": "CarConfig beenden",
+      "path": "Fachliche Bausteine CarConfig",
+      "interactionType": "COMPOUND",
+      "spec": {
+        "callID": "8694758",
+        "sequencePhase": "Teardown",
+        "callType": "FLOW",
+        "description": "<html><body>\n  \n\n  \n  \nBeenden sie den CarConfigurator \u00fcber das X am oberen rechten Rand.    \n<br/>    \n<img src=\"itb/image/8689362.png\"/>\n</body></html>",
+        "comments": "<html><body/></html>",
+        "references": []
+      },
+      "exec": {
+        "verdict": "UNDEFINED",
+        "time": 0,
+        "comments": "",
+        "references": []
+      },
+      "parameters": [],
+      "interactions": [
+        {
+          "key": "2305843010000318994",
+          "uniqueID": "itba-IA-4e1b8815d3",
+          "name": "Close Context",
+          "path": "RF-Library.Browser",
+          "interactionType": "ATOMIC",
+          "spec": {
+            "callID": "8692227",
+            "sequencePhase": "Teardown",
+            "callType": "FLOW",
+            "description": "<html><p>Closes a Context. Activated context is set to first active context. Closes pages belonging to this context. See <a href=\"#Browser%2C%20Context%20and%20Page\" class=\"name\">Browser, Context and Page</a> for more information about Context and related concepts.</p>\n<p><code>context</code> &lt; <code>CURRENT</code> | <code>ALL</code> | str &gt; Close context with specified id. If <code>ALL</code> is passed, all contexts of the specified browser are closed. Defaults to CURRENT.</p>\n<p><code>browser</code> &lt; <code>CURRENT</code> | <code>ALL</code> | str &gt; Close context in specified browser. If value is not \"CURRENT\" it should be a string referencing the id of the browser where to close context.</p></html>",
+            "comments": "<html><body/></html>",
+            "references": []
+          },
+          "exec": {
+            "verdict": "UNDEFINED",
+            "time": 0,
+            "comments": "",
+            "references": []
+          },
+          "parameters": [
+            {
+              "name": "context",
+              "name_from_te": "context",
+              "value": "ALL",
+              "type": "1",
+              "dataTypeName": "Id",
+              "dataTypePath": "RF-Library.Browser._Datatypes",
+              "dataTypeUniqueID": "itb-DT-27233"
+            },
+            {
+              "name": "browser",
+              "name_from_te": "browser",
+              "value": "ALL",
+              "type": "1",
+              "dataTypeName": "Id",
+              "dataTypePath": "RF-Library.Browser._Datatypes",
+              "dataTypeUniqueID": "itb-DT-27233"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parameters": []
+}
