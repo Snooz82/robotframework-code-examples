@@ -1,0 +1,15 @@
+{
+    "name": "TwoRobotOne__Init__",
+    "description": "readme.md",
+    "files": [
+        {
+            "fileName": "Suite1.robot"
+        },
+        {
+            "fileName": "Suite2.robot"
+        },
+        {
+            "fileName": "__init__.robot"
+        }
+    ]
+}
