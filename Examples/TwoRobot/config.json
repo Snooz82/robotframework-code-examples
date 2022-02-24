@@ -1,0 +1,12 @@
+{
+    "name": "TwoRobot",
+    "description": "readme.md",
+    "files": [
+        {
+            "fileName": "Suite1.robot"
+        },
+        {
+            "fileName": "Suite2.robot"
+        }
+    ]
+}
