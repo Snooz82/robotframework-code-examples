@@ -1,0 +1,13 @@
+{
+    "name": "OneRobotOneJSON",
+    "description": "readme.md",
+    "robotVersion": "5.0rc1",
+    "files": [
+        {
+            "fileName": "Types_in_Dict.robot"
+        },
+        {
+            "fileName": "Types_in_Dict.csv"
+        }
+    ]
+}
