@@ -1,0 +1,16 @@
+{
+    "name": "XML Example 4.0",
+    "description": "readme.md",
+    "robotVersion": "4.0",
+    "files": [
+        {
+            "fileName": "test.robot"
+        },
+        {
+            "fileName": "keywords.resource"
+        },
+        {
+            "fileName": "stuff.xml"
+        }
+    ]
+}
