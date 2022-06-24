@@ -1,0 +1,24 @@
+{
+    "name": "TwoRobotFourResource",
+    "description": "readme.md",
+    "files": [
+        {
+            "fileName": "test1.robot"
+        },
+        {
+            "fileName": "test2.robot"
+        },
+        {
+            "fileName": "res1.resource"
+        },
+        {
+            "fileName": "res2.resource"
+        },
+        {
+            "fileName": "res3.resource"
+        },
+        {
+            "fileName": "res4.resource"
+        }
+    ]
+}
