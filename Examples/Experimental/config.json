@@ -2,15 +2,20 @@
     "name": "OneRobotOneJSON",
     "description": "readme.md",
     "requirements": [
-        "robotframework==6.0",
-        "robotframework-faker"
+        "robotframework==6.0"
     ],
     "robotArgs": {
-        "loglevel": "TRACE:INFO"
+        "loglevel": "TRACE:INFO",
+        "listener": [
+            "ListenerV2.py"
+        ]
     },
     "files": [
         {
             "fileName": "Test.robot"
+        },
+        {
+            "fileName": "ListenerV2.py"
         }
     ]
 }
