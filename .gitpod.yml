@@ -1,0 +1,9 @@
+tasks:
+  - init: |
+      pip install robotframework
+    command: |
+      python -m pip install --upgrade pip
+vscode:
+  extensions:
+    - ms-python.python
+    - d-biehl.robotcode
