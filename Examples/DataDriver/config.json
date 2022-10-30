@@ -2,6 +2,10 @@
     "name": "OneRobotOneJSON",
     "description": "readme.md",
     "robotVersion": "5.0rc1",
+    "robotArgs": {
+        "loglevel": "TRACE",
+        "dryrun": true,
+    },
     "files": [
         {
             "fileName": "Types_in_Dict.robot"
