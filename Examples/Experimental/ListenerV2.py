@@ -9,28 +9,28 @@ class ListenerV2:
         logger.console(f"🔹 Listener Init")
 
     def start_suite(self, name, attrs):
-        logger.console(f"🔹 .start_suite    name: {name}     attrs: {attrs}")
+        logger.console(f"🔹  start_suite    name: {name}     attrs: {attrs}")
 
     def start_test(self, name, attrs):
-        logger.console(f"🔹 ..start_test    name: {name}     attrs: {attrs}")
+        logger.console(f"🔹   start_test    name: {name}     attrs: {attrs}")
 
     def start_keyword(self, name, attrs):
-        logger.console(f"🔹 ...start_keyword    name: {name}     attrs: {attrs}")
+        logger.console(f"🔹    start_keyword    name: {name}     attrs: {attrs}")
 
     def end_keyword(self, name, attrs):
-        logger.console(f"🔹 ...end_keyword    name: {name}     attrs: {attrs}")
+        logger.console(f"🔹    end_keyword    name: {name}     attrs: {attrs}")
 
     def end_test(self, name, attrs):
-        logger.console(f"🔹 ..end_test    name: {name}     attrs: {attrs}")
+        logger.console(f"🔹   end_test    name: {name}     attrs: {attrs}")
 
     def end_suite(self, name, attrs):
-        logger.console(f"🔹 .end_suite    name: {name}     attrs: {attrs}")
+        logger.console(f"🔹  end_suite    name: {name}     attrs: {attrs}")
 
     def log_message(self, message):
-        logger.console(f"🔹 log_message   {message}")
+        logger.console(f"🔹     log_message   {message}")
 
     def message(self, message):
-        logger.console(f"🔹 message   {message}")
+        pass  # logger.console(f"🔹 message   {message}")
 
     def library_import(self, name, attrs):
         logger.console(f"🔹 library_import    name: {name}     attrs: {attrs}")
