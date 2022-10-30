@@ -4,7 +4,6 @@
     "robotVersion": "5.0rc1",
     "robotArgs": {
         "loglevel": "TRACE",
-        "dryrun": true,
         "listener": [
             "RetryFailed",
             "RobotStackTracer"
