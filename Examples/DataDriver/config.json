@@ -1,7 +1,12 @@
 {
     "name": "OneRobotOneJSON",
     "description": "readme.md",
-    "robotVersion": "5.0rc1",
+    "requirements": [
+        "robotframework==6.0",
+        "robotframework-datadriver",
+        "robotframework-stacktrace",
+        "robotframework-retryfailed"
+    ],
     "robotArgs": {
         "loglevel": "TRACE",
         "listener": [
