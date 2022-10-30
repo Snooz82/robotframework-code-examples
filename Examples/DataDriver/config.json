@@ -4,7 +4,11 @@
     "robotVersion": "5.0rc1",
     "robotArgs": {
         "loglevel": "TRACE",
-        "dryrun": true
+        "dryrun": true,
+        "listener": [
+            "RetryFailed",
+            "RobotStackTracer"
+        ]
     },
     "files": [
         {
