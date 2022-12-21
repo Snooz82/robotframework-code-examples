@@ -19,3 +19,14 @@ Test
   ${final_count_str}  Remove String  ${shorter_count_str}  )
   Log To Console    ${final_count_str}
   Should Be Equal As Numbers   ${count}  ${final_count_str}
+
+Test 2
+  ${ABC}  Get Text  ${locator_Ac}
+  ${DEF}  Get Text  ${locator_Bc}
+  ${count}  Evaluate  ${ABC} + ${DEF}
+  Log to Console  \${count}:${{type($count)}}:${count}
+  ${count_str}  Get Text  ${loc_count}
+  Log to Console  \${count_str}:${{type($count_str)}}:${count_str}
+  ${final_count_str}  Remove String Using Regexp  ${count_str}  \\D
+  Log to Console  \${final_count_str}:${{type($final_count_str)}}:${final_count_str}
+  Should Be Equal As Numbers   ${count}  ${final_count_str}
