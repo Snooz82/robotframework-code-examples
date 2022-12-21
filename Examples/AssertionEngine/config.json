@@ -1,0 +1,22 @@
+{
+    "name": "Assertions",
+    "description": "readme.md",
+    "requirements": [
+        "robotframework",
+        "robotframework-assertion-engine"
+    ],
+    "robotArgs": {
+        "loglevel": "TRACE:INFO",
+        "listener": [
+            "ListenerV2.py"
+        ]
+    },
+    "files": [
+        {
+            "fileName": "Test.robot"
+        },
+        {
+            "fileName": "ListenerV2.py"
+        }
+    ]
+}

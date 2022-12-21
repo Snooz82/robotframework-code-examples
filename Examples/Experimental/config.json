@@ -5,17 +5,14 @@
         "robotframework==6.0"
     ],
     "robotArgs": {
-        "loglevel": "TRACE:INFO",
-        "listener": [
-            "ListenerV2.py"
-        ]
+        "loglevel": "TRACE:INFO"
     },
     "files": [
         {
             "fileName": "Test.robot"
         },
         {
-            "fileName": "ListenerV2.py"
+            "fileName": "Library.py"
         }
     ]
 }
