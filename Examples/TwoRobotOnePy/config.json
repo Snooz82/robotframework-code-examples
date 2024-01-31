@@ -1,0 +1,15 @@
+{
+    "name": "OneRobotOnePy",
+    "description": "readme.md",
+    "files": [
+        {
+            "fileName": "test1.robot"
+        },
+        {
+            "fileName": "test2.robot"
+        },
+        {
+            "fileName": "Lib.py"
+        }
+    ]
+}
