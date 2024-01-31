@@ -11,4 +11,5 @@ These templates are used to define own code examples.
 - https://robotframework.org/code/?code-gh-url=https://github.com/Snooz82/robotframework-code-examples/tree/main/Examples/OneRobotOneJSON
 - https://robotframework.org/code/?code-gh-url=https://github.com/Snooz82/robotframework-code-examples/tree/main/Examples/TwoRobot
 - https://robotframework.org/code/?code-gh-url=https://github.com/Snooz82/robotframework-code-examples/tree/main/Examples/TwoRobotOne__Init__/
+- https://robotframework.org/code/?code-gh-url=https://github.com/Snooz82/robotframework-code-examples/tree/main/Examples/TwoRobotOnePy/
 - https://robotframework.org/code/?code-gh-url=https://github.com/Snooz82/robotframework-code-examples/tree/main/Examples/TwoRobotFourResource/
