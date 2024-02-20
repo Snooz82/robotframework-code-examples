@@ -4,4 +4,4 @@
 *** Test Cases ***
 Test
     Log     Something
-    Log     Something New
+    Log     Super New
