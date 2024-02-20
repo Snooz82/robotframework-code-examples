@@ -1,8 +1,8 @@
 {
     "name": "OneRobotOneJSON",
     "description": "readme.md",
+    "robotVersion": "6.0",
     "requirements": [
-        "robotframework==6.0",
         "robotframework-datadriver",
         "robotframework-stacktrace",
         "robotframework-retryfailed"
