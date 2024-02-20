@@ -1,0 +1,27 @@
+{
+    "name": "OneRobotOnePyExperiment",
+    "description": "readme.md",
+    "robotVersion": "6.0",
+    "requirements": [
+        "requests",
+        "robotframework-requests",
+        "robotframework-datadriver",
+        "robotframework-stacktrace",
+        "robotframework-retryfailed"
+    ],
+    "robotArgs": {
+        "loglevel": "TRACE",
+        "listener": [
+            "RetryFailed",
+            "RobotStackTracer"
+        ]
+    },
+    "files": [
+        {
+            "fileName": "test.robot"
+        },
+        {
+            "fileName": "Lib.py"
+        }
+    ]
+}
