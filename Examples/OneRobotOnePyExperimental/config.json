@@ -4,7 +4,7 @@
     "robotVersion": "6.0",
     "requirements": [
         "requests",
-        "robotframework-requests",
+        "robotframework-crypto",
         "robotframework-datadriver",
         "robotframework-stacktrace",
         "robotframework-retryfailed"
