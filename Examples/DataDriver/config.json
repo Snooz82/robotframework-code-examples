@@ -1,25 +1,27 @@
 {
-    "name": "OneRobotOneJSON",
+    "name": "DataDriver",
     "description": "readme.md",
-    "robotVersion": "6.0",
-    "requirements": [
-        "robotframework-datadriver",
-        "robotframework-stacktrace",
-        "robotframework-retryfailed"
+    "files": [
+        {
+            "fileName": "Types_in_Dict.csv",
+            "hidden": false
+        },
+        {
+            "fileName": "Types_in_Dict.robot",
+            "hidden": false
+        }
     ],
     "robotArgs": {
-        "loglevel": "TRACE",
+        "loglevel": "TRACE:INFO",
         "listener": [
             "RetryFailed",
             "RobotStackTracer"
         ]
     },
-    "files": [
-        {
-            "fileName": "Types_in_Dict.robot"
-        },
-        {
-            "fileName": "Types_in_Dict.csv"
-        }
+    "robotVersion": "7.0",
+    "requirements": [
+        "robotframework-datadriver",
+        " robotframework-stacktrace",
+        " robotframework-retryfailed"
     ]
 }
