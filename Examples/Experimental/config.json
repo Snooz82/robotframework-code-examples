@@ -6,7 +6,7 @@
     ],
     "robotArgs": {
         "loglevel": "TRACE:INFO",
-        "listener": "ListenerV2.py"
+        "listener": ["ListenerV2.py"]
     },
     "files": [
         {
